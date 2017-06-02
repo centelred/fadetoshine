@@ -8,7 +8,6 @@
 	width:100%;
 	margin:13px auto;
 	background-image:url('../images/jumbo.jpeg');
-
 }
 
 .jumbotron h1 {
@@ -20,7 +19,7 @@
 	margin:50px, 0, 0, 45px;
 	background-color:#212129;
 	opacity:0.85;
-	width:600px;
+	width:60%;
 	padding:40px;
 	border-radius:5px;
 }
@@ -60,9 +59,10 @@ footer {
 
 .banner {
 	background-color:#212129;
+    margin:0 auto;
 	margin-top:15px;
 	padding:12px;
-	border-radius:3px;
+	border-radius:15px;
 	width:560px;
 	height:70px;
 	color:#ffffff;
@@ -81,4 +81,12 @@ footer {
     color:#ffffff;
     border-radius:5px;
     padding:3px;
+}
+
+.well-lg {
+    margin-right:25px;
+}
+
+.pricing h3 {
+    text-align:center;
 }
