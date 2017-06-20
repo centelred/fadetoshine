@@ -2,12 +2,13 @@
 	background-color:#8A8780;
 	margin:5px auto;
 	border-radius:5px;
+    border: solid .5px #FF6600;
 }
 
 .jumbotron {
 	width:100%;
 	margin:13px auto;
-	background-image:url('../images/jumbo.jpeg');
+	background-image:url('../images/hood.jpg');
 }
 
 .jumbotron h1 {
@@ -89,4 +90,18 @@ h3 {
 
 .charges {
     text-align:center;
+}
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
 }
